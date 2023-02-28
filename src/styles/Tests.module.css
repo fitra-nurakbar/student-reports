@@ -1,0 +1,5 @@
+.spinner {
+  @apply text-center p-2 border border-red-600;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
