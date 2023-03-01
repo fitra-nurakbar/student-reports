@@ -1,5 +1,22 @@
-.spinner {
-  @apply text-center p-2 border border-red-600;
-  -moz-appearance: textfield;
-  appearance: textfield;
+.main {
+  @apply text-center;
+}
+.land {
+  @apply flex justify-center pt-[200px];
+}
+.redActive {
+  @apply w-[50px] h-[50px] relative bg-red-500 rounded-full animate-left;
+}
+.blueActive {
+  @apply w-[50px] h-[50px] relative bg-sky-500 rounded-full animate-right;
+}
+.red {
+  @apply w-[50px] h-[50px] relative bg-red-500 rounded-full shadow-lg;
+}
+.blue {
+  @apply w-[50px] h-[50px] relative bg-sky-500 rounded-full shadow-lg;
+}
+
+.button {
+  @apply bg-black text-white px-5 py-2 rounded-md my-5;
 }

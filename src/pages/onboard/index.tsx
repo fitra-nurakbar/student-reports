@@ -23,10 +23,10 @@ export default function Onboard({ students }: { students: Array<Students> }) {
         <div
           key={index}
           className={`p-5 ${
-            index % 2 === 0 ? `bg-red-600` : `bg-sky-600 text-right`
+            index % 2 === 0 ? `bg-red-500` : `bg-sky-500 text-right`
           } text-white font-semibold max-w-[200px] mb-5 mx-auto rounded-lg`}
         >
-          <h2>      {student.name}</h2>
+          <h2>{student.name}</h2>
           <p>{student.gender}</p>
           <p>{student.class}</p>
         </div>
