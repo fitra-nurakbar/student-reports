@@ -23,13 +23,13 @@ module.exports = {
         left: {
           "0%": { transform: "translate(0, 0)" },
           "50%": { transform: "translate(-500%, -200%)" },
-          "100%": { transform: "translate(0, 0)" }
+          "100%": { transform: "translate(0, 0)" },
         },
         right: {
           "0%": { transform: "translate(0, 0)" },
           "50%": { transform: "translate(500%, -200%)" },
           "100%": { transform: "translate(0, 0)" },
-        }
+        },
       },
     },
   },
